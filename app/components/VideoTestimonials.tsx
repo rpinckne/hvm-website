@@ -69,13 +69,13 @@ export default function VideoTestimonials() {
                 Your browser does not support the video tag.
               </video>
               <blockquote className="text-xl font-semibold text-foreground mb-4">
-                "{testimonials[currentTestimonial].quote}"
+                &quot;{testimonials[currentTestimonial].quote}&quot;
               </blockquote>
               <p className="text-lg text-muted-foreground">
                 {testimonials[currentTestimonial].name} - {testimonials[currentTestimonial].title}
               </p>
               <p className="text-sm text-muted-foreground mt-2">
-                Watch {testimonials[currentTestimonial].name}'s 45-second testimonial
+                Watch {testimonials[currentTestimonial].name}&apos;s 45-second testimonial
               </p>
             </motion.div>
           </AnimatePresence>
