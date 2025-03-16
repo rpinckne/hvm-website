@@ -8,7 +8,7 @@ const processSteps = [
   {
     number: 1,
     title: "Join & Assess",
-    description: "Become a member and complete our comprehensive assessment to understand your starting point.",
+    description: "Become a member and complete our assessment to understand your starting point.",
     icon: UserPlus,
   },
   {
