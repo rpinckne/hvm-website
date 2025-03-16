@@ -39,7 +39,7 @@ export default function FourPillars() {
           <p className="mt-4 text-xl text-muted-foreground">Holistic development for true transformation</p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {pillars.map((pillar, index) => (
+          {pillars.map((pillar) => (
             <motion.div
               key={pillar.name}
               className="relative overflow-hidden rounded-lg shadow-lg"

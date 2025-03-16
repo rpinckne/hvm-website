@@ -43,11 +43,11 @@ export default function FounderNote() {
                   </p>
                   <p className="leading-relaxed">
                     By focusing on disciplined learning, real habits, and genuine connections, I built viral consumer
-                    apps, landed Forbes 30 Under 30, and forged an epic network of power players. Real success isn't
+                    apps, landed Forbes 30 Under 30, and forged an epic network of power players. Real success isn&apos;t
                     flashy—it comes from investing in yourself every single day.
                   </p>
                   <p className="leading-relaxed">
-                    That's why we built HVM Elite: personalized, science‑backed guides to help you master the
+                    That&apos;s why we built HVM Elite: personalized, science‑backed guides to help you master the
                     fundamentals and unlock elite-level growth.
                   </p>
                 </motion.div>
@@ -123,18 +123,18 @@ export default function FounderNote() {
                 </p>
                 <p>
                   Even more, I forged an epic network of power players, got into great shape, and developed some of the
-                  deepest new friendships I'd ever had—all by focusing on what truly matters instead of chasing empty
+                  deepest new friendships I&apos;d ever had—all by focusing on what truly matters instead of chasing empty
                   trends.
                 </p>
                 <p>
-                  The lesson is simple: true success isn't about flashy flexes—it's about consistently investing in
-                  yourself. That's why we created HVM Elite. Our platform delivers personalized, science‑backed guides
-                  designed to help you build lasting success across mind, body, heart, and hustle. It's the blueprint
-                  for transformation I wish I'd had when I was starting out.
+                  The lesson is simple: true success isn&apos;t about flashy flexes—it&apos;s about consistently investing in
+                  yourself. That&apos;s why we created HVM Elite. Our platform delivers personalized, science‑backed guides
+                  designed to help you build lasting success across mind, body, heart, and hustle. It&apos;s the blueprint
+                  for transformation I wish I&apos;d had when I was starting out.
                 </p>
                 <p>
-                  If you're ready to ditch the hype and start investing in your future (and have a little fun along the
-                  way), welcome to HVM Elite. Let's build your legacy together.
+                  If you&apos;re ready to ditch the hype and start investing in your future (and have a little fun along the
+                  way), welcome to HVM Elite. Let&apos;s build your legacy together.
                 </p>
               </div>
             </motion.div>

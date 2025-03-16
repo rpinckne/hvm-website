@@ -41,7 +41,7 @@ export default function LimitedTimeOffer() {
             Membership Closing Soon
           </h2>
           <p className="mt-3 sm:mt-4 text-base sm:text-lg md:text-xl leading-7 sm:leading-8">
-            HVM Elite is accepting new members for a limited time only. Don't miss your chance to join our exclusive
+            HVM Elite is accepting new members for a limited time only. Don&apos;t miss your chance to join our exclusive
             community committed to real growth.
           </p>
           <div className="mt-8 sm:mt-10 flex justify-center">
