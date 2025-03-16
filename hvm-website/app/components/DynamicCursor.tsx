@@ -1,7 +1,7 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import { motion } from "framer-motion"
+import { motion, Variants } from "framer-motion"
 
 export default function DynamicCursor() {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 })
@@ -22,7 +22,7 @@ export default function DynamicCursor() {
     }
   }, [])
 
-  const variants = {
+  const variants: Variants = {
     default: {
       x: mousePosition.x - 16,
       y: mousePosition.y - 16,
@@ -33,7 +33,6 @@ export default function DynamicCursor() {
       x: mousePosition.x - 75,
       y: mousePosition.y - 75,
       backgroundColor: "var(--accent)",
-      mixBlendMode: "difference",
     },
   }
 
@@ -69,7 +68,9 @@ export default function DynamicCursor() {
 
   return (
     <motion.div
-      className="fixed top-0 left-0 w-8 h-8 rounded-full bg-accent pointer-events-none z-50"
+      className={`fixed top-0 left-0 w-8 h-8 rounded-full bg-accent pointer-events-none z-50 ${
+        cursorVariant === "text" ? "mix-blend-difference" : ""
+      }`}
       variants={variants}
       animate={cursorVariant}
     />
